@@ -11,23 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="subpages.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#home" aria-label="Infinity Foundation, home">
+        <a class="brand" href="index.html" aria-label="Infinity Foundation, home">
           <span class="brand-logo-frame"><img src="assets/infinity-foundation-logo.png" alt="Infinity Foundation" /></span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
           <span></span><span></span>
         </button>
         <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
-          <a href="#purpose">About us</a>
-          <a href="#founder">Founder</a>
-          <a href="#programs">Our work</a>
-          <a class="nav-cta" href="#donate">Support us <span aria-hidden="true">↗</span></a>
+          <a href="about.html">About</a>
+          <a href="what-we-do.html">What we do</a>
+          <a href="health.html">Health</a>
+          <a href="education.html">Education</a>
+          <a href="programs.html">Programs</a>
+          <a href="about.html#founder">Founder</a>
+          <a class="nav-cta" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -76,7 +80,7 @@
         <div class="container intro-band-inner">
           <p class="eyebrow eyebrow-light">Our purpose</p>
           <p class="intro-statement" lang="mr">शिक्षण आणि सामुदायिक कृतीतून <span>उज्ज्वल भविष्य घडते, असा आमचा विश्वास आहे.</span></p>
-          <a class="light-link" href="#founder">Meet Infinity Foundation <span aria-hidden="true">↗</span></a>
+          <a class="light-link" href="about.html">Meet Infinity Foundation <span aria-hidden="true">↗</span></a>
         </div>
         <figure class="purpose-art"><img src="assets/education-community-transparent.png" alt="Illustration of children learning and growing together" loading="lazy" /></figure>
       </section>
@@ -125,8 +129,22 @@
         </div>
       </section>
 
+      <section class="home-focus section pillar-right" aria-labelledby="home-focus-title">
+        <div class="container">
+          <div class="section-topline">
+            <div><p class="eyebrow"><span class="eyebrow-dot"></span> Our focus</p><h2 id="home-focus-title">Health and learning,<br /><em>built locally.</em></h2></div>
+            <p class="section-aside">Our work is taking shape around health and education with tribal communities. Explore the areas we are developing.</p>
+          </div>
+          <div class="focus-card-grid">
+            <a class="focus-card focus-card-health" href="health.html"><span class="focus-card-number">01 / HEALTH</span><span class="focus-card-icon" aria-hidden="true">✳</span><h3>Care closer to home.</h3><p>Explore our planned focus on prevention, community health, and follow-through.</p><span class="focus-card-link">Explore health <span aria-hidden="true">↗</span></span></a>
+            <a class="focus-card focus-card-education" href="education.html"><span class="focus-card-number">02 / EDUCATION</span><span class="focus-card-icon" aria-hidden="true">⌁</span><h3>More ways to learn.</h3><p>Explore our education priorities, from access to learning materials to continued support.</p><span class="focus-card-link">Explore education <span aria-hidden="true">↗</span></span></a>
+          </div>
+          <a class="text-link focus-all-link" href="what-we-do.html">How we work <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
       <section class="donate-section pillar-right" id="donate">
-        <div class="container donate-inner"><div><p class="eyebrow eyebrow-light">Make a difference</p><h2>Good things grow<br />when we <em>give.</em></h2></div><div class="donate-copy"><p>Want to support our work? Get in touch to learn more about ways to help.</p><a class="donate-note" href="mailto:infinityfoundation123@gmail.com">Contact us <span aria-hidden="true">↗</span></a></div></div>
+        <div class="container donate-inner"><div><p class="eyebrow eyebrow-light">Make a difference</p><h2>Good things grow<br />when we <em>give.</em></h2></div><div class="donate-copy"><p>Want to support our work? Get in touch to learn more about ways to help.</p><a class="donate-note" href="contact.html">Contact us <span aria-hidden="true">↗</span></a></div></div>
       </section>
 
       <section class="section contact-section pillar-left" id="contact">
@@ -140,7 +158,7 @@
     <footer class="site-footer">
       <div class="footer-top">
         <div class="container footer-top-inner">
-          <a class="brand brand-footer" href="#home" aria-label="Infinity Foundation, home"><span class="brand-logo-frame"><img src="assets/infinity-foundation-logo.png" alt="Infinity Foundation" /></span></a>
+          <a class="brand brand-footer" href="index.html" aria-label="Infinity Foundation, home"><span class="brand-logo-frame"><img src="assets/infinity-foundation-logo.png" alt="Infinity Foundation" /></span></a>
           <div class="footer-socials" aria-label="Social media">
             <a class="footer-social-icon" href="https://www.instagram.com/infinity_foundation_org/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: infinity_foundation_org">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z" /></svg>
@@ -162,23 +180,24 @@
           <nav class="footer-column footer-quick-links" aria-labelledby="footer-links-title">
             <h2 id="footer-links-title">Quick links</h2>
             <ul>
-              <li><a href="#purpose">About us</a></li>
-              <li><a href="#founder">Founder</a></li>
-              <li><a href="#programs">Our work</a></li>
-              <li><a href="#donate">Donate</a></li>
-              <li><a href="#contact">Contact us</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="what-we-do.html">What we do</a></li>
+              <li><a href="health.html">Health</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="programs.html">Programs</a></li>
+              <li><a href="contact.html">Contact us</a></li>
             </ul>
           </nav>
           <div class="footer-actions" aria-label="Ways to support">
-            <a class="footer-action" href="#donate">Donate</a>
-            <a class="footer-action" href="#contact">Volunteer</a>
+            <a class="footer-action" href="contact.html#connect">Support our work</a>
+            <a class="footer-action" href="contact.html#connect">Volunteer</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <div class="container footer-bottom-inner">
           <span>© <span id="year"></span> Infinity Foundation</span>
-          <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+          <a class="back-top" href="index.html#home" aria-label="Back to top">↑</a>
         </div>
       </div>
     </footer>
