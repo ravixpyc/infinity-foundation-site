@@ -124,3 +124,15 @@
 .education-hero-children{position:absolute;bottom:0;left:50%;display:block;width:116%;height:auto;max-width:none;transform:translateX(-50%)}
 @media(max-width:900px){.education-hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(250px,.95fr);gap:20px}.education-hero-art{height:340px;min-height:300px}}
 @media(max-width:680px){.education-hero-grid{grid-template-columns:1fr;gap:16px}.education-hero-art{height:250px;min-height:230px;max-width:500px;width:100%;margin-inline:auto}.education-hero-children{width:110%}}
+
+/* Health hero: community care photo with a subtle Warli backdrop and photo credit. */
+.health-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:clamp(20px,4vw,62px);align-items:center}
+.health-hero .page-hero-inner{max-width:670px;min-width:0}
+.health-hero-art{position:relative;z-index:1;margin:0;padding:30px 10px 0;isolation:isolate}
+.health-hero-warli{position:absolute;z-index:-1;top:-2px;right:3%;width:min(53%,300px);height:auto;opacity:.13;mix-blend-mode:multiply;pointer-events:none}
+.health-hero-photo{position:relative;overflow:hidden;margin-left:5%;border:8px solid rgba(255,250,240,.9);background:#e7e1cc;box-shadow:0 16px 38px rgba(46,34,21,.16)}
+.health-hero-photo::after{position:absolute;inset:0;content:"";pointer-events:none;background:linear-gradient(135deg,rgba(215,166,91,.08),transparent 58%,rgba(90,57,37,.05));mix-blend-mode:soft-light}
+.health-hero-photo img{display:block;width:100%;height:auto;filter:saturate(.96) contrast(1.02)}
+.health-hero-art figcaption{display:flex;justify-content:space-between;gap:14px;margin:13px 5% 0;color:#75685d;font-size:10px;letter-spacing:.04em}
+@media(max-width:900px){.health-hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(250px,.95fr);gap:20px}.health-hero-art{padding-top:26px}}
+@media(max-width:680px){.health-hero-grid{grid-template-columns:1fr;gap:18px}.health-hero-art{width:100%;max-width:540px;margin-inline:auto;padding:25px 8px 0}.health-hero-photo{margin-left:3%;border-width:6px}.health-hero-art figcaption{margin-left:3%;font-size:9px}}
